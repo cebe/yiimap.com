@@ -7,7 +7,7 @@ use yii\widgets\Breadcrumbs;
  * @var $this \yii\base\View
  * @var $content string
  */
-app\config\AppAsset::register($this);
+app\assets\AppAsset::register($this);
 ?>
 <?php $this->beginPage(); ?>
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ app\config\AppAsset::register($this);
 <?php $this->beginBody(); ?>
 <div class="container">
 	<div class="masthead">
-		<h3 class="muted">My Company</h3>
+		<h3 class="muted">Yiimap.com</h3>
 
 		<div class="navbar fullwidth">
 			<div class="navbar-inner">

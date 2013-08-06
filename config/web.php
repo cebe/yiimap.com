@@ -1,7 +1,7 @@
 <?php
 
 return array(
-	'id' => 'bootstrap',
+	'id' => 'yiimap.com',
 	'basePath' => dirname(__DIR__),
 	'preload' => array('debug'),
 	'modules' => array(
