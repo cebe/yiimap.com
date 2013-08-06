@@ -18,7 +18,7 @@ app\assets\AppAsset::register($this);
 	<?php $this->head(); ?>
 </head>
 <body>
-<?php $this->beginBody(); ?>
+<?php $this->beginBody(); /*?>
 <div class="container">
 	<div class="masthead">
 		<h3 class="muted">Yiimap.com</h3>
@@ -45,8 +45,8 @@ app\assets\AppAsset::register($this);
 
 	<?php echo Breadcrumbs::widget(array(
 		'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : array(),
-	)); ?>
-	<?php echo $content; ?>
+	));*/ ?>
+	<?php echo $content; /*?>
 
 	<hr>
 
@@ -58,7 +58,7 @@ app\assets\AppAsset::register($this);
 		</p>
 	</div>
 </div>
-<?php $this->endBody(); ?>
+<?php*/ $this->endBody(); ?>
 </body>
 </html>
 <?php $this->endPage(); ?>

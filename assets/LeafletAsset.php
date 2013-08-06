@@ -35,5 +35,7 @@ class LeafletAsset extends AssetBundle
 		}
 		// TODO this is a workaround for https://github.com/yiisoft/yii2/issues/721, remove, when issue is fixed
 		$this->sourcePath = \Yii::getAlias($this->sourcePath);
+
+		parent::init();
 	}
 }
